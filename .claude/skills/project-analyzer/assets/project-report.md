@@ -1,8 +1,8 @@
 # 项目分析报告
 
-**项目名称：** skill_demo
-**分析日期：** 2026-03-02 00:00:22
-**项目路径：** C:\Users\daydreamer\Desktop\claude\skill_demo
+**项目名称：** project_example
+**分析日期：** 2026-03-02 01:05:14
+**项目路径：** C:\Users\daydreamer\Desktop\claude\skill_demo\project_example
 
 ---
 
@@ -10,19 +10,21 @@
 
 | 指标 | 数值 |
 |------|------|
-| 文件总数 | 16 |
-| 代码总行数 | 2,208 |
-| 有效代码行 | 1,632 |
-| 注释行数 | 59 |
-| 空白行数 | 517 |
+| 文件总数 | 11 |
+| 代码总行数 | 6,476 |
+| 有效代码行 | 4,888 |
+| 注释行数 | 580 |
+| 空白行数 | 1,008 |
 
 ## 编程语言
 
 | 语言 | 文件数 | 总行数 | 代码行 | 注释行 | 空白行 |
 |------|--------|--------|--------|--------|--------|
-| Markdown | 12 | 1,478 | 1,098 | 0 | 380 |
-| Python | 2 | 612 | 417 | 59 | 136 |
-| JSON | 2 | 118 | 117 | 0 | 1 |
+| TypeScript | 1 | 1,607 | 1,216 | 204 | 187 |
+| Python | 1 | 1,508 | 1,075 | 163 | 270 |
+| Java | 7 | 1,475 | 1,024 | 213 | 238 |
+| Rust | 1 | 1,004 | 833 | 0 | 171 |
+| Go | 1 | 882 | 740 | 0 | 142 |
 
 ## 检测到的框架
 
@@ -32,33 +34,37 @@
 
 | 扩展名 | 数量 | 占比 |
 |--------|------|------|
-| .md | 12 | 75.0% |
-| .json | 2 | 12.5% |
-| .py | 2 | 12.5% |
+| .java | 7 | 63.6% |
+| .go | 1 | 9.1% |
+| .py | 1 | 9.1% |
+| .rs | 1 | 9.1% |
+| .ts | 1 | 9.1% |
 
 ## 最大的文件
 
 | 文件路径 | 大小 (字节) | 行数 |
 |----------|-------------|------|
-| `.claude\skills\project-analyzer\scripts\analyze.py` | 11,544 | 360 |
-| `.claude\skills\project-analyzer\scripts\report.py` | 7,798 | 252 |
-| `SKILL_GUIDE.md` | 5,750 | 299 |
-| `.claude\skills\code-reviewer\examples.md` | 5,175 | 245 |
-| `EXECUTION_LOG.md` | 4,982 | 197 |
-| `...skills\project-analyzer\references\checklist.md` | 4,422 | 198 |
-| `.claude\skills\code-reviewer\reference.md` | 3,510 | 124 |
-| `...kills\project-analyzer\assets\project-report.md` | 2,353 | 79 |
-| `.claude\skills\code-reviewer\skill.md` | 2,324 | 96 |
-| `...de\skills\project-analyzer\assets\analysis.json` | 2,274 | 109 |
+| `backend\python-api\main.py` | 43,692 | 1,508 |
+| `frontend\vue-app\src\main.ts` | 40,970 | 1,607 |
+| `backend\rust-crypto\src\main.rs` | 30,777 | 1,004 |
+| `backend\go-worker\main.go` | 24,126 | 882 |
+| `...src\main\java\com\demo\service\TaskService.java` | 10,483 | 347 |
+| `...a-report\src\main\java\com\demo\model\Task.java` | 7,844 | 347 |
+| `...rc\main\java\com\demo\model\TaskStatistics.java` | 7,454 | 298 |
+| `...in\java\com\demo\repository\TaskRepository.java` | 6,626 | 247 |
+| `...rt\src\main\java\com\demo\model\TaskStatus.java` | 2,623 | 113 |
+| `...\src\main\java\com\demo\model\TaskPriority.java` | 2,143 | 95 |
 
 ## 代码分布
 
 下图展示了不同编程语言的代码分布情况：
 
 ```
-Markdown        |█████████████████████████████████                   67.3%
-Python          |████████████                                        25.6%
-JSON            |███                                                  7.2%
+TypeScript      |████████████                                        24.9%
+Python          |██████████                                          22.0%
+Java            |██████████                                          20.9%
+Rust            |████████                                            17.0%
+Go              |███████                                             15.1%
 ```
 
 ---
