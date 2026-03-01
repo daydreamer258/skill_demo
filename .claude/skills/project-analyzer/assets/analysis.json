@@ -1,0 +1,109 @@
+{
+  "project_name": "skill_demo",
+  "project_path": "C:\\Users\\daydreamer\\Desktop\\claude\\skill_demo",
+  "analysis_date": "2026-03-02T00:00:22.721974",
+  "total_files": 16,
+  "total_directories": 7,
+  "total_lines": 2208,
+  "code_lines": 1632,
+  "comment_lines": 59,
+  "blank_lines": 517,
+  "files_by_extension": {
+    ".md": 12,
+    ".json": 2,
+    ".py": 2
+  },
+  "files_by_language": {
+    "Markdown": 12,
+    "JSON": 2,
+    "Python": 2
+  },
+  "lines_by_language": {
+    "Markdown": {
+      "total": 1478,
+      "code": 1098,
+      "comments": 0,
+      "blank": 380
+    },
+    "JSON": {
+      "total": 118,
+      "code": 117,
+      "comments": 0,
+      "blank": 1
+    },
+    "Python": {
+      "total": 612,
+      "code": 417,
+      "comments": 59,
+      "blank": 136
+    }
+  },
+  "directory_structure": [],
+  "largest_files": [
+    {
+      "path": ".claude\\skills\\project-analyzer\\scripts\\analyze.py",
+      "lines": 360,
+      "size": 11544
+    },
+    {
+      "path": ".claude\\skills\\project-analyzer\\scripts\\report.py",
+      "lines": 252,
+      "size": 7798
+    },
+    {
+      "path": "SKILL_GUIDE.md",
+      "lines": 299,
+      "size": 5750
+    },
+    {
+      "path": ".claude\\skills\\code-reviewer\\examples.md",
+      "lines": 245,
+      "size": 5175
+    },
+    {
+      "path": "EXECUTION_LOG.md",
+      "lines": 197,
+      "size": 4982
+    },
+    {
+      "path": ".claude\\skills\\project-analyzer\\references\\checklist.md",
+      "lines": 198,
+      "size": 4422
+    },
+    {
+      "path": ".claude\\skills\\code-reviewer\\reference.md",
+      "lines": 124,
+      "size": 3510
+    },
+    {
+      "path": ".claude\\skills\\project-analyzer\\assets\\project-report.md",
+      "lines": 79,
+      "size": 2353
+    },
+    {
+      "path": ".claude\\skills\\code-reviewer\\skill.md",
+      "lines": 96,
+      "size": 2324
+    },
+    {
+      "path": ".claude\\skills\\project-analyzer\\assets\\analysis.json",
+      "lines": 109,
+      "size": 2274
+    }
+  ],
+  "frameworks": [],
+  "languages": [
+    {
+      "name": "Markdown",
+      "files": 12
+    },
+    {
+      "name": "JSON",
+      "files": 2
+    },
+    {
+      "name": "Python",
+      "files": 2
+    }
+  ]
+}
